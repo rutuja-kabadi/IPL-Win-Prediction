@@ -128,7 +128,6 @@ IPL-Win-Probability-Dashboard/
 ├── app.py
 ├── requirements.txt
 ├── README.md
-└── assets/
 ```
 
 ---
@@ -148,5 +147,4 @@ IPL-Win-Probability-Dashboard/
 * Incorporate player-level statistics and recent form.
 * Add venue and weather conditions.
 * Use SHAP for explainable AI.
-* Deploy the application on Streamlit Cloud.
 * Integrate live IPL match data for real-time predictions.
