@@ -2,6 +2,8 @@
 
 An end-to-end Machine Learning project that predicts the **real-time win probability** of the chasing team in an IPL match after every ball. The project leverages ball-by-ball IPL data, domain-specific feature engineering, and an XGBoost classifier to estimate winning chances dynamically throughout the second innings. Predictions are served through an interactive Streamlit dashboard, allowing users to simulate different match scenarios and visualize changing win probabilities.
 
+** 🌐 Live App URL:** *[Paste your live Streamlit Cloud link here]*
+
 ## 🚀 Project Objectives
 
 * Predict the probability of the chasing team winning after every delivery.
