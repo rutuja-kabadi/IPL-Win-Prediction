@@ -2,9 +2,9 @@
 
 An end-to-end Machine Learning project that predicts the **real-time win probability** of the chasing team in an IPL match after every ball. The project leverages ball-by-ball IPL data, domain-specific feature engineering, and an XGBoost classifier to estimate winning chances dynamically throughout the second innings. Predictions are served through an interactive Streamlit dashboard, allowing users to simulate different match scenarios and visualize changing win probabilities.
 
-## 🌐 Live App URL:## *(https://ipl-win-prediction-2gscmzsuvmx8mr8tuwp6sn.streamlit.app/)*
+## Live App URL:## *(https://ipl-win-prediction-2gscmzsuvmx8mr8tuwp6sn.streamlit.app/)*
 
-## 🚀 Project Objectives
+## Project Objectives
 
 * Predict the probability of the chasing team winning after every delivery.
 * Build a production-style ML pipeline from data preprocessing to deployment.
@@ -13,7 +13,7 @@ An end-to-end Machine Learning project that predicts the **real-time win probabi
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 The project uses the IPL Ball-by-Ball Dataset containing over **700,000+ deliveries** across multiple IPL seasons.
 
@@ -24,7 +24,7 @@ The project uses the IPL Ball-by-Ball Dataset containing over **700,000+ deliver
 
 ---
 
-## 🛠️ Workflow
+## Workflow
 
 1. Data Cleaning & Preprocessing
 2. Exploratory Data Analysis (EDA)
@@ -36,7 +36,7 @@ The project uses the IPL Ball-by-Ball Dataset containing over **700,000+ deliver
 
 ---
 
-## ⚙️ Feature Engineering
+## Feature Engineering
 
 The model uses both match-state and momentum-based features, including:
 
@@ -57,7 +57,7 @@ The model uses both match-state and momentum-based features, including:
 
 ---
 
-## 🤖 Machine Learning
+## Machine Learning
 
 **Model:** XGBoost Classifier
 
@@ -67,7 +67,7 @@ To ensure realistic evaluation, the dataset is split **by match ID**, preventing
 
 ---
 
-## 📈 Model Evaluation
+## Model Evaluation
 
 Evaluation metrics include:
 
@@ -83,7 +83,7 @@ Approximate performance:
 
 ---
 
-## 📊 Streamlit Dashboard
+## Streamlit Dashboard
 
 The interactive dashboard allows users to:
 
@@ -97,7 +97,7 @@ The interactive dashboard allows users to:
 
 ---
 
-## 💻 Tech Stack
+## Tech Stack
 
 * Python
 * Pandas
@@ -110,7 +110,7 @@ The interactive dashboard allows users to:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 IPL-Win-Probability-Dashboard/
@@ -134,7 +134,7 @@ IPL-Win-Probability-Dashboard/
 
 ---
 
-## ✨ Key Highlights
+## Key Highlights
 
 * Processed **700K+** IPL ball-by-ball records.
 * Engineered **20+** domain-specific cricket features.
@@ -144,7 +144,7 @@ IPL-Win-Probability-Dashboard/
 
 ---
 
-## 🎯 Future Improvements
+## Future Improvements
 
 * Incorporate player-level statistics and recent form.
 * Add venue and weather conditions.
